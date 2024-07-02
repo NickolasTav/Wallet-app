@@ -30,6 +30,9 @@ export const Description = styled.Text`
 `;
 
 export const ViewButton = styled.View`
-    flex-direction: row;
     gap: ${RFValue(10)}px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 `;

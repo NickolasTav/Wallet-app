@@ -13,6 +13,8 @@ export const Button = styled(RectButton)`
     border-radius: ${RFValue(5)}px;
     background-color: ${theme.COLORS.GRAY6};
     box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.5);
+    border-width: 1px;
+    border-color: ${theme.COLORS.BLACK};
 `;
 
 export const IconeGoogle = styled.Image`

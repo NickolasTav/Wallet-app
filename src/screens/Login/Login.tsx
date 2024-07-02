@@ -13,6 +13,7 @@ import {
 } from "./styles";
 
 import { ButtonSocialFacebook } from "@components/ButtonSocialFacebook/ButtonSocialFacebook";
+import theme from "@styles/theme";
 
 const Login: React.FC = () => {
     return (
@@ -23,7 +24,11 @@ const Login: React.FC = () => {
                     <Description>Entrar com Rede Sociais.</Description>
                     <ViewButton>
                         <ButtonSocialGoogle title="Google" />
-                        <ButtonSocialFacebook title="Facebook" />
+                        <ButtonSocialFacebook
+                            iconName="facebook"
+                            title="Facebook"
+                            backgroundcolor={theme.COLORS.BLUE}
+                        />
                     </ViewButton>
                 </ContentHeader>
                 <ContentBody></ContentBody>
